@@ -10,6 +10,14 @@ export default function Home() {
       <h1>Usando NextJS</h1>
       <h2>{process.env.NEXT_PUBLIC_API_URL}</h2>
       <Link href="/sobre">Sobre...</Link>
+      <br />
+      <Link href="/CSR">CSR...</Link>
+      <br />
+      <Link href="/SSR">SSR...</Link>
+      <br />
+      <Link href="/SSG">SSG...</Link>    
+      <br />
+      <Link href="/ISR">ISR...</Link>        
 
     </div>
   )
